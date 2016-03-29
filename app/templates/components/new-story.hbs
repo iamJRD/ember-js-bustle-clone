@@ -1,0 +1,26 @@
+<h1>Add a Story</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Title</label>
+        {{input value=title id="title" placeholder=story.title}}
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" placeholder=story.author}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image</label>
+        {{input value=image id="image" placeholder=story.image}}
+      </div>
+
+      <div class="form-group">
+        <label for="content">Article Content</label>
+        {{textarea value=content id="content" placeholder=story.content}}
+      </div>
+
+      <button {{action 'save1'}}>Save</button>
+    </form>
+  </div>
