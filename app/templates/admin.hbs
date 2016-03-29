@@ -4,8 +4,9 @@
   {{new-story save2="save3"}}
 
     {{#each model as |story|}}
-      <h4>{{story.title}}</h4>
-      <button class="btn btn-warning" name="update">Update</button>
+
+      {{update-story story=story update="update"}}
+
       <button class="btn btn-danger" name="delete">Delete</button>
     {{/each}}
 </div>
