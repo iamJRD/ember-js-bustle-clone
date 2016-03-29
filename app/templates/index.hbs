@@ -1,5 +1,5 @@
-<ul>
-  {{#each model as |story|}}
-    <li>{{story.title}}</li>
-  {{/each}}
-</ul>
+<div class="container">
+    {{#each model as |story|}}
+      {{story-tile story=story}}
+    {{/each}}
+</div>
