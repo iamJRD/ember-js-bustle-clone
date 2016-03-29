@@ -7,6 +7,6 @@
 
       {{update-story story=story update="update"}}
 
-      <button class="btn btn-danger" name="delete">Delete</button>
+      <button {{action 'destroyStory' story}} class="btn btn-danger" name="delete">Delete</button>
     {{/each}}
 </div>

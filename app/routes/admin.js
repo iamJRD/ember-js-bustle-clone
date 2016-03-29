@@ -20,6 +20,13 @@ export default Ember.Route.extend({
       });
       story.save();
       this.transitionTo('admin');
+    },
+
+    destroyStory(story) {
+      if (confirm('Are you sure you want to delete this rental?')) {
+      story.destroyRecord();
+      this.transitionTo('admin');
+      }
     }
   }
 });
