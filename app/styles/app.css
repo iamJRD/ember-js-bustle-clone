@@ -1,4 +1,45 @@
+* {
+  font-family: 'Arvo', serif;
+}
+
+body{
+  background-color: #b3b3b4;
+}
+.jumbotron {
+  color: #777777;
+  background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Earth-Wallpaper.jpg");
+  background-size: cover;
+  background-position: left;
+}
+
+.main-header {
+  margin-bottom: 110px;
+  text-shadow: 2px 2px 3px #d9d9d9;
+}
+
+.jumbotron h1 {
+  font-size: 100px;
+  padding-right: 50px;
+}
+
 img {
   height: 250px;
   width: 350px;
+}
+
+.top-links {
+  padding-bottom: 10em;
+  margin-top: -2em;
+  float: right;
+  padding-right: 2em;
+  font-size: 12px;
+}
+
+.top-links a {
+    font-family: 'Montserrat', sans-serif;
+    color: #d9d9d9;
+    font-size: 13px;}
+
+.story-header {
+  text-shadow: .5px .5px 1px black;
 }
